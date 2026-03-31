@@ -68,7 +68,7 @@ http://13.218.149.47:3000
 
 | Method | Endpoint          | Description   |
 | ------ | ----------------- | ------------- |
-| GET    | /users            | Get all users |
+| GET    | /users/get        | Get all users |
 | POST   | /users/post       | Create user   |
 | PATCH  | /users/patch/:id  | Update user   |
 | DELETE | /users/delete/:id | Delete user   |
