@@ -1,16 +1,70 @@
-# React + Vite
+# User Management Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend of a User Management CRUD application built using React. It allows users to create, view, update, and delete user data through a simple UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+* Add new users (name, age, email)
+* View all users in a table
+* Edit existing user details
+* Delete users
+* Search users by name
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React (Vite)
+* JavaScript (ES6)
+* Fetch API
+* CSS
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+ ├── App.jsx
+ ├── components/
+ ├── styles/
+ └── main.jsx
+```
+
+---
+
+## ⚙️ How It Works
+
+* User interacts with form (add/edit)
+* Frontend sends API requests to backend
+* Backend processes request and returns response
+* UI updates based on response
+
+---
+
+## 🌐 API Endpoints
+
+| Method | Endpoint | Description |
+|-------|--------|------------|
+| GET | /users | Get all users |
+| POST | /users/post | Create user |
+| PATCH | /users/patch/:id | Update user |
+| DELETE | /users/delete/:id | Delete user |
+
+---
+
+## ☁️ Deployment Details
+
+### Frontend (S3):
+- Built using Vite (`npm run build`)
+- Uploaded to S3 bucket
+- Static hosting enabled
+
+## 🧪 Run Locally
+
+```bash
+npm install
+npm run dev
+```
