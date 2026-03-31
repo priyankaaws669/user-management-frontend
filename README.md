@@ -68,6 +68,10 @@ src/
 npm install
 npm run dev
 ```
+## 🔗 Backend Repository
+https://github.com/priyankaaws669/user-management-backend
+```
+
 ## 📸 Screenshots
 
 ### Main UI
