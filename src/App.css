@@ -1,0 +1,82 @@
+body {
+  background-color: whitesmoke;
+  width: 100%;
+}
+
+.container {
+  width: 400px;
+  margin: 100px auto;
+  text-align: center;
+  padding: 25px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px;
+}
+
+h1 {
+  color: blue;
+}
+input {
+  width: 95%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px splid #ccc;
+  border-radius: 5px;
+}
+
+button{
+  width: 50%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+  
+}
+
+table.container{
+  margin-top: 15auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  
+}
+
+table{
+  border-collapse: collapse;
+  width : 100%
+  
+}
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #45a049;
+  color: white;
+}
+
+.action-button {
+  display: flex;
+  gap: 10px;   /* 🔥 clean spacing */
+  justify-content: center;
+  width: 30%;
+}
+
+.searchBar {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
