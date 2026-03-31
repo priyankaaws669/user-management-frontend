@@ -68,3 +68,13 @@ src/
 npm install
 npm run dev
 ```
+## 📸 Screenshots
+
+### Main UI
+![Main UI](./main-ui.jpeg)
+
+### Users Added
+![Users](./data-added.jpeg)
+
+### Edit Mode
+![Edit](./edit-mode.jpeg)
