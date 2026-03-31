@@ -25,7 +25,7 @@ This is the frontend of a full-stack web application deployed on AWS. It is buil
 
 ## 📂 Project Structure
 
-```id="fx6r1o"
+```
 src/
  ├── App.jsx
  ├── components/
@@ -83,7 +83,7 @@ http://13.218.149.47:3000
 
 ````
 npm run build
-``` id="b0n2yo"
+``` 
 
 - Uploaded build files to S3 bucket  
 - Enabled static website hosting  
@@ -92,7 +92,7 @@ npm run build
 
 ## 🧪 Run Locally
 
-```bash id="kqf1vn"
+```
 npm install
 npm run dev
 ````
