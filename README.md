@@ -4,7 +4,7 @@ This is the frontend of a User Management CRUD application built using React. It
 
 ---
 
-## Features
+## 🚀Features
 
 * Add new users (name, age, email)
 * View all users in a table
@@ -14,7 +14,7 @@ This is the frontend of a User Management CRUD application built using React. It
 
 ---
 
-## Tech Stack
+## 🛠️Tech Stack
 
 * React (Vite)
 * JavaScript (ES6)
